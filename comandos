@@ -1,0 +1,29 @@
+Primeiro comando: ** npm init **, vai perguntar várias opções para configurar esse pacote, dar Enter em todas.
+
+Segundo Comando: ** npm install json-server **, pede para o npm instalar o json-server para possibilitar o uso dele aqui nesse projeto.
+
+Terceiro Comando: ** json-server --watch db.json **, comando json-server, que é o próprio nome do pacote, --watch, fica olhando se tem alguma alteração no arquivo, db.json é o arquivo.
+
+
+Autorizar o terminal power shell
+Set-ExecutionPolicy RemoteSigned, A 
+
+
+Artigos
+
+Mockando APIs REST com json-server do Vinny Neves.
+
+Vem ver com o Felipe Nascimento como criar e publicar uma biblioteca Javascript no NPM.
+
+você pode acompanhar o Vinicius Dias no seu Alura Mais O que é uma API?
+
+JavaScript: Consumindo e tratando dados de uma API
+
+Começando com fetch no JavaScript
+
+JavaScript assíncrono e fetch
+
+Async/await no JavaScript: o que é e quando usar a programação assíncrona?
+
+Data Attributes do HTML5.
+https://cursos.alura.com.br/extra/alura-mais/data-attributes-do-html5-c109

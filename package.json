@@ -1,0 +1,14 @@
+{
+  "name": "javasript-criandorequisicoes",
+  "version": "1.0.0",
+  "description": "Requisições GET para retornar dados de uma API,  Requisições POST para cadastrar dados em uma API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
