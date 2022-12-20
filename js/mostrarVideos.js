@@ -22,10 +22,14 @@ export default function constroiCard(titulo, descricao, url, imagem) {
 }
 
 async function listaVideos() {
-  const listaApi = await conectaApi.listaVideos();
-  listaApi.forEach(elemento => lista.appendChild(constroiCard(
-    elemento.titulo, elemento.descricao, elemento.url, elemento.imagem))
-  )
+  try {
+    const listaApi = await conectaApi.listaVideos();
+    listaApi.forEach(elemento => lista.appendChild(constroiCard(
+      elemento.titulo, elemento.descricao, elemento.url, elemento.imagem))
+    )
+  } catch {
+    lista.innerHTML = `<h2 class="mensagem__titulo">Não foi possível acessar os videos</h2>`
+  }
 }
 
 listaVideos();
