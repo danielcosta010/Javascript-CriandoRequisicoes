@@ -1,11 +1,19 @@
+// https://github.com/danielcosta010/Javascript-CriandoRequisicoes/blob/main/db.json
+//http://localhost:3000/videos
+//https://gist.github.com/danielcosta010/c1447759437ca059a5a1b0cdaa239abe.js
+
+//https://gist.github.com/c1447759437ca059a5a1b0cdaa239abe.git
+
+//https://gist.github.com/danielcosta010/c1447759437ca059a5a1b0cdaa239abe
+
 async function listaVideos () {
-  const conexao = await fetch(" http://localhost:3000/videos");
+  const conexao = await fetch("https://mockend.com/org/repo/users");
   const conexaoConvertida = await conexao.json();
   return conexaoConvertida;
 }
 
 async function criaVideos(titulo, descricao, url, imagem) {
-  const conexao = await fetch(" http://localhost:3000/videos", {
+  const conexao = await fetch("https://mockend.com/org/repo/users", {
     method: "POST",
     headers: {
       "Content-type": "application/json"
