@@ -7,13 +7,13 @@
 //https://gist.github.com/danielcosta010/c1447759437ca059a5a1b0cdaa239abe
 
 async function listaVideos () {
-  const conexao = await fetch("https://mockend.com/org/repo/users");
+  const conexao = await fetch("https://mockend.com/org/Javascript-CriandoRequisicoes/users");
   const conexaoConvertida = await conexao.json();
   return conexaoConvertida;
 }
 
 async function criaVideos(titulo, descricao, url, imagem) {
-  const conexao = await fetch("https://mockend.com/org/repo/users", {
+  const conexao = await fetch("https://mockend.com/org/Jacascript-CriandoRequisicoes/users", {
     method: "POST",
     headers: {
       "Content-type": "application/json"
