@@ -1,11 +1,14 @@
 {
-  "videos": [
-    {
-      "id": 1,
-      "titulo": "Conhecendo a linguagem Go | Hipsters.Talks",
-      "descricao": "3 mil visualizações",
-      "url": "",
-      "imagem": ""
+  "Post": {
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
     }
-  ]
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
+  }
 }
