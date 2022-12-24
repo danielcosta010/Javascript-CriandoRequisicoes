@@ -9,13 +9,13 @@
 //https://gist.github.com/danielcosta010/c1447759437ca059a5a1b0cdaa239abe
 
 async function listaVideos () {
-  const conexao = await fetch("https://github.com/danielcosta010/Javascript-CriandoRequisicoes/blob/main/db.json");
+  const conexao = await fetch("https://my-json-server.typicode.com/danielcosta010/Javascript-CriandoRequisicoes/videos");
   const conexaoConvertida = await conexao.json();
   return conexaoConvertida;
 }
 
 async function criaVideos(titulo, descricao, url, imagem) {
-  const conexao = await fetch("https://github.com/danielcosta010/Javascript-CriandoRequisicoes/blob/main/db.json", {
+  const conexao = await fetch("https://my-json-server.typicode.com/danielcosta010/Javascript-CriandoRequisicoes/videos", {
     method: "POST",
     headers: {
       "Content-type": "application/json"
