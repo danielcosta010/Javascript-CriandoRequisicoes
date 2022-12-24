@@ -37,7 +37,7 @@ async function criaVideos(titulo, descricao, url, imagem) {
 }
 
 async function buscaVideo(termoDeBusca) {
-  const conexao = await fetch(`http://localhost:3000/videos?q=${termoDeBusca}`);
+  const conexao = await fetch(`https://my-json-server.typicode.com/danielcosta010/Javascript-CriandoRequisicoes/videos?q=${termoDeBusca}`);
 
   const conexaoConvertida = conexao.json();
   return conexaoConvertida;
