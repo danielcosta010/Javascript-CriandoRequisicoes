@@ -7,4 +7,4 @@ O conteúdo deste curso contém:
 * Transformando uma página estática em dinâmica
 *  Mockar uma API
 
-<a href="https://danielcosta010.github.io/Javascript-CriandoRequisicoes/" target="blank"><img src="https://github.com/danielcosta010/Javascript-CriandoRequisicoes/blob/main/img/2022-12-23.png" alt="Capa dp projeto" width= 600px></a>
+<a href="https://danielcosta010.github.io/Javascript-CriandoRequisicoes/" target="_blank"><img src="https://github.com/danielcosta010/Javascript-CriandoRequisicoes/blob/main/img/2022-12-23.png" alt="Capa dp projeto" width= 600px></a>
